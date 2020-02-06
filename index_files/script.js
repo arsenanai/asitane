@@ -36,14 +36,14 @@ $(function () {
     });
     
     // scrollSpy
-    $('body').scrollspy({target: ".navbar-nav", offset: 120});
+    /*$('body').scrollspy({target: ".navbar-nav", offset: 120});
     $("a.nav-link").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 1000, function () {
+            }, 500, function () {
                 window.location.hash = hash;
             });
         }
@@ -61,7 +61,7 @@ $(function () {
                 window.location.hash = hash;
             });
         }
-    });
+    });*/
     
     
     // state
@@ -103,9 +103,6 @@ $(function () {
         } else {
             scrollButton.hide();
         }
-    });
-    scrollButton.on('click', function () {
-        $("html,body").animate({scrollTop: 0}, 2000);
     });
     
 });
