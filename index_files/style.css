@@ -14086,6 +14086,9 @@ h3 {
 	text-transform: uppercase;
 	color: var(--main-color)
 }
+h1{
+	color: var(--main-color)
+}
 
 h3 {
 	font-family: Ubuntu Condensed, sans-serif;
